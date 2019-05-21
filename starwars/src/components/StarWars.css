@@ -1,0 +1,30 @@
+.character-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.character-container .character-file {
+    margin: 0 0 1rem;
+    max-width: 290px;
+    min-width: 250px;
+    width: 100%;
+    color: #f4eff3;
+    background-color: #442719;
+    border-radius: 12px;
+    letter-spacing: .15rem;
+}
+
+.character-container .character-file .name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.character-container .character-file .param {
+    color: #f9efea;
+    font-size: 12pt;
+    text-transform: capitalize;
+}
+
